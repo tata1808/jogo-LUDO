@@ -1,0 +1,198 @@
+.divPai{
+    width: 360px;
+    height: 360px;
+    border: 4px solid;
+    color: black;
+    position: relative;
+}
+ 
+.divJogador1{
+    width: 110px;
+    height: 110px;
+    border: 17px solid rgb(100, 0, 146);
+    background: rgb(233, 215, 250);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 6px 5px rgb(51, 0, 99);
+}
+ 
+.divJogador1 .pinojogador1{
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    background: rgb(90, 1, 163);
+    border-radius: 100%;
+    color: rgb(253, 251, 251);
+    margin: 6px;
+    box-shadow: 6px 5px 5px rgb(35, 0, 99);
+}
+ 
+.divJogador2{
+    width: 110px;
+    height: 110px;
+    border: 17px solid rgb(255, 0, 21);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: rgb(255, 176, 173);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 5px 5px rgb(131, 1, 1);
+}
+ 
+.divJogador2 .pinojogador2{
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    background: rgb(255, 0, 0);
+    border-radius: 100%;
+    color:rgb(253, 251, 251);
+    margin: 6px;
+    box-shadow: 6px 5px 5px rgb(85, 1, 1);
+}
+ 
+.divJogador3{
+    width: 110px;
+    height: 110px;
+    border: 17px solid rgb(255, 238, 3);
+    position: absolute;
+    bottom: 0px;
+    background: rgb(248, 247, 172);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 5px 5px rgb(206, 209, 1);
+}
+ 
+.divJogador3 .pinojogador3{
+    height: 30%;
+    width: 30%;
+    background: rgb(250, 233, 1);
+    border: 2px solid;
+    border-radius: 100%;
+    color: rgb(253, 251, 251);
+    margin: 6px;
+    box-shadow: 6px 5px 5px rgb(149, 151, 0);
+}
+ 
+.divJogador4{
+    width: 110px;
+    height: 110px;
+    border: 17px solid blue;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(215, 237, 250);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 5px 5px rgb(0, 0, 112);
+}
+ 
+.divJogador4 .pinojogador4{
+    height: 30%;
+    width: 30%;
+    background: blue;
+    border: 2px solid;
+    border-radius: 100%;
+    color: rgb(253, 251, 251);
+    margin: 6px;
+    box-shadow: 6px 5px 5px rgb(0, 9, 49);
+}
+ 
+.triangulo1{
+    position: absolute;
+    border: 1.9px solid black;
+    width: 98px;
+    height: 0px;
+    left: 130px;
+    right: 130px;
+    top: 179px;
+    transform: rotate(45deg);
+}
+ 
+ 
+.triangulo2{
+    position: absolute;
+    border: 1.9px solid black;
+    width: 98px;
+    height: 0px;
+    left: 130px;
+    right: 130px;
+    top: 179px;
+    transform: rotate(-45deg);
+}
+ 
+.barra-horizontal{
+    position: absolute;
+    left: 0px;
+    top: 39.6%;
+    border: 2px solid black;
+    width: 99.2%;
+    height: 70px;
+    right: 0px;
+}
+ 
+.barra-horizontal .vermelho{
+    position: absolute;
+    left: 21px;
+    top: 32%;
+    border: 2px solid rgb(153, 0, 255);
+    width: 33.1%;
+    height: 24px;
+}
+ 
+.barra-horizontal .azul{
+    position: absolute;
+    right: 21px;
+    top: 32%;
+    border: 2px solid rgb(255, 0, 0);
+    width: 33.3%;
+    height: 24px;
+}
+ 
+.barra-vertical{
+    position: absolute;
+    top: -4.3px;
+    right: 0px;
+    left: 50%;
+    width: 70px;
+    height: 101.1%;
+    border: 2px solid black;
+    transform: translate(-50%);
+}
+ 
+.barra-vertical .laranja{
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    width: 24px;
+    height: 33.6%;
+    border: 2px solid rgb(162, 0, 255);
+    transform: translate(-50%);
+}
+ 
+.barra-vertical .verde{
+ 
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 24px;
+    height: 33.6%;
+    border: 2px solid rgb(0, 60, 255);
+    transform: translate(-50%);
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
